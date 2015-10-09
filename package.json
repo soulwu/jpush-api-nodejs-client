@@ -1,7 +1,7 @@
 {
-  "name": "jpush-sdk",
+  "name": "jpush-sdk-yijie",
   "version": "3.2.1",
-  "description": "JPush's officially supported Node.js client library.",
+  "description": "JPush's officially supported Node.js client library. Modified by soulwu.",
   "main": "index.js",
   "scripts": {
     "test": "mocha -t 50000 --reporter spec"
@@ -15,7 +15,7 @@
   "author": "jpush",
   "license": "MIT",
   "dependencies": {
-    "request": "~2.27.0",
+    "request": "2.64.0",
     "popularcrypto": "0.0.2"
   },
   "devDependencies": {
@@ -27,10 +27,10 @@
   "homepage": "https://www.jpush.cn/",
   "repository": {
     "type": "git",
-    "url": "git@github.com:jpush/jpush-api-nodejs-client.git"
+    "url": "git@github.com:soulwu/jpush-api-nodejs-client.git"
   },
   "bugs": {
-    "url": "https://github.com/jpush/jpush-api-nodejs-client/issues"
+    "url": "https://github.com/soulwu/jpush-api-nodejs-client/issues"
   },
   "directories": {
     "doc": "doc",
